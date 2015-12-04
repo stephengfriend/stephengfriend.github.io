@@ -1,5 +1,7 @@
 # stephengfriend.github.io
 
+[![Join the chat at https://gitter.im/stephengfriend/stephengfriend.github.io](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/stephengfriend/stephengfriend.github.io?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
+
 A simple jekyll site for [stephengfriend.com](https://stephengfriend.com) based on [Pixyll](http://www.pixyll.com) by [John Otander](http://johnotander.com)
 
 -----
