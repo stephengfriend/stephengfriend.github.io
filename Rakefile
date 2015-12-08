@@ -1,3 +1,5 @@
+require 'html/proofer'
+
 drafts_dir = '_drafts'
 posts_dir  = '_posts'
 
@@ -53,6 +55,13 @@ task :draft, :title do |t, args|
 
 # Uncomment the line below if you want the draft to automatically open in your default text editor
 # system ("#{ENV['EDITOR']} #{filename}")
+end
+
+# rake test
+desc "build and test website"
+task :test do
+  sh "bundle exec jekyll build"
+  HTML::Proofer.new("./_site", {:href_ignore=> ['http://localhost:4000'], :verbose => true}).run
 end
 
 desc 'preview the site with drafts'
