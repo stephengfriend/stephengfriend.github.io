@@ -1,40 +1,43 @@
 # Site settings
-title:       Pixyll
-email:       your_email@example.com
-author:      John Otander
-description: "A simple, beautiful theme for Jekyll that emphasizes content rather than aesthetic fluff."
+title:       Stephen G. Friend
+email:       stephen.g.friend@gmail.com
+author:      Stephen G. Friend
+description: "The personal site of Stephen G. Friend"
 baseurl:     ""
-url:         "http://pixyll.com"
+url:         "https://stephengfriend.com"
 date_format: "%b %-d, %Y"
 
+# Gravatar
+gravatar_hash: c95f5ebdf9627dad8b7062f4ec3a8c9a
+
 # Google services
-google_analytics:
+google_analytics: UA-71049256-1
 google_verification:
 
 # Optional features
 animated:             false
-show_related_posts:   false
-show_post_footers:    false
-show_social_icons:    false
-ajaxify_contact_form: false
+show_related_posts:   true
+show_post_footers:    true
+show_social_icons:    true
+ajaxify_contact_form: true
 
 # Disqus post comments
 # (leave blank to disable Disqus)
-disqus_shortname:
+disqus_shortname: stephengfriend
 
 # Facebook Comments plugin
 # (leave blank to disable Facebook Comments, otherwise set it to true)
-facebook_comments: 
-facebook_appid: 
+facebook_comments:
+facebook_appid:
 facebook_comments_number: 10
 
 # Social icons
-github_username:
+github_username: stephengfriend
 bitbucket_username:
 stackoverflow_id:
-twitter_username:
+twitter_username: stephengfriend
 google_plus_id:
-linkedin_username:
+linkedin_username: stephengfriend
 angellist_username:
 medium_id:
 bitcoin_url:
@@ -45,8 +48,8 @@ flattr_button:
 show_sharing_icons: false
 share_text: 'Share this post!'
 # Change to 'true' to enable individual icons
-share_facebook: false
-share_twitter: false
+share_facebook: true
+share_twitter: true
 share_googleplus: false
 share_linkedin: false
 share_digg: false
