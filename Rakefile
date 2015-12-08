@@ -61,7 +61,7 @@ end
 desc "build and test website"
 task :test do
   sh "bundle exec jekyll build"
-  HTML::Proofer.new("./_site", {:href_ignore=> ['http://localhost:4000'], :verbose => true}).run
+  HTML::Proofer.new("./_site", {:only_4xx => true, :verbose => true}).run
 end
 
 desc 'preview the site with drafts'
