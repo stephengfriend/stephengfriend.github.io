@@ -137,7 +137,7 @@ Head on over to Gitter.im and send a direct message to the account name your bot
 
 ![carinabot communications](http://dpr.stephengfriend.com/1bpG7.png)
 
-Next time, we'll add a Redis Brain to Cainabot and introduce Docker Compose for orchestrating our containers.
+Next time, we'll add a Redis Brain to Carinabot and introduce [Docker Compose](https://docs.docker.com/compose/) for orchestrating our containers.
 
 ---
 
