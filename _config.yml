@@ -62,8 +62,13 @@ share_hackernews: false
 markdown:     kramdown
 redcarpet:
   extensions: ['smart', 'tables', 'with_toc_data']
-permalink:    pretty
+permalink:    /:title/
 paginate:     4
 sass:
   sass_dir: _sass
   compressed: true
+include: ["_pages"]
+gems:
+  - jekyll-redirect-from
+  - jekyll-mentions
+  - jekyll-sitemap
